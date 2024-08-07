@@ -1,9 +1,9 @@
 # Syscall-Communication
-This is a server-client based calculator implementation, where communication is handled with syscalls and interrupts.
+Server-client based calculator, where communication is handled with syscalls and interrupts.
 A shared buffer text file is used for communication between the processes.
 
 ### Client 
-The client program receives as arguments the server PID, two numbers and an operator represented as number(1-4),
+The client process receives as arguments the server PID, two numbers and an operator represented as number(1-4),
 corresponding to addition, subtraction, multiplication, division.
 
 ### Server
